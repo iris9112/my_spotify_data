@@ -6,7 +6,7 @@ if __name__ == '__main__':
     # Process to join all data and return as csv
     history = []
     for i in range(4):
-        with open(f'data/StreamingHistory{i}.json', mode='r', encoding='utf-8') as file:
+        with open(f'../data/StreamingHistory{i}.json', mode='r', encoding='utf-8') as file:
             list_file = json.load(file)
             history.append(list_file)
 
