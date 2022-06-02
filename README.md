@@ -1,6 +1,6 @@
 # My Year in Spotify
 
-This was my year 👩🏼‍🎤 ✨. Apparently, every moment was going along with a good song during the pandemic!
+This was my year 👩🏼‍🎤 ✨. Apparently, every moment was going along with a good song during the second year of the pandemic!
 
 📅 Starting: May 25, 2021
 
@@ -15,9 +15,9 @@ This was my year 👩🏼‍🎤 ✨. Apparently, every moment was going along w
 Inspired by the post: [Data viz con spotify - Tacos de datos](https://old.tacosdedatos.com/mas-data-viz-con-spotify-python).
 
 This repo contains:
-- Code source: [sample.ipynb](#sample.ipynb)
+- Code source: <code>source/sample.ipynb</code>
 - Folder data: My spotify data in json format. You can request your data on this [link](https://www.spotify.com/es/account/privacy/). 
-For my ease, I put everything together in a CSV file, with the help of the [main.py](#main.py) script
+For my ease, I put everything together in a CSV file, with the help of the <code>source/main.py</code> script
  
 Thank you for reading! 💖 
 

@@ -13,7 +13,7 @@ if __name__ == '__main__':
     # unify nested list
     history = [streaming for session in history for streaming in session]
 
-    with open('data/streaming_history.csv', mode='w', encoding='utf-8', newline='') as file:
+    with open('../data/streaming_history.csv', mode='w', encoding='utf-8', newline='') as file:
         w = csv.DictWriter(file, fieldnames=history[0].keys())
         w.writeheader()
         w.writerows(history)
